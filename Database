@@ -1,3 +1,4 @@
+
 package Database;
 
 import java.sql.Connection;
@@ -6,7 +7,7 @@ import java.sql.SQLException;
 
 public class DatabaseConnection {
     private static final String HOST = "localhost:3306";
-    private static final String DATABASE = "hotel_htl";
+    private static final String DATABASE = "db_booking_hotel";
     private static final String USER = "root";
     private static final String PASSWORD = "";
     private static final String DRIVER = "com.mysql.cj.jdbc.Driver";
